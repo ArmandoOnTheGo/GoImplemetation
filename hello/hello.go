@@ -1,7 +1,12 @@
-package main
+package main 	//Package Name
 
-import "fmt"
-
+import (
+	"fmt"	//If you need more than one import, you'll need ()
+	"example.com/user/hello/morestrings"	
+)
 func main() {
-	fmt. Printf("Hello, World\n")
+	s := "Hello World"
+	fmt.Printf(s+"\n")
+	//Using the reverse string from morestrigns package
+	fmt.Println(morestrings.ReverseRunes(s))
 }
