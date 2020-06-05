@@ -1,8 +1,8 @@
 #!/bin/bash
 
 echo "Enter Commit Message"
-read message
+read mes
 
 git add .
-git commit -m "$message"
+git commit -m "$mes"
 git push
