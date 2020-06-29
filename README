@@ -1,0 +1,10 @@
+Basic Go Implemetations
+
+This project is to show the get some practice displaying some of the basics of GO (Golang)
+
+Concepts implementated
+- Reading User Input and Validation (checking for numerical values)
+- Calculating square root of received value
+- Function calls and returning values
+- float64 calculation
+- Displaying result of calculation to user
